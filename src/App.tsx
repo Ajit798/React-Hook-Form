@@ -75,7 +75,7 @@ function App() {
 					</div>
 				);
 			})}
-			<h3>{totalSum}</h3>
+			<h3>{totalSum ? totalSum : '-'}</h3>
 		</>
 	);
 }
